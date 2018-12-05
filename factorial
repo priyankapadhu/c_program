@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int i,fact,n;
+printf("Enter number : ");
+scanf("%d",&n);
+fact=1;
+for(i=n;i>=1;i--)
+{
+fact=fact*i;
+}
+if((n>=1)&&(n<=7))
+{
+printf("\n %d! = %d\n",n,fact);
+}
+else
+{
+printf("\n %d! = %d\n",n,fact);
+printf("not in the limit\n");
+}
+return 0;
+}
+~
