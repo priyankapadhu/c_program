@@ -9,6 +9,8 @@ for(i=0;i<n;i++)
 {
 scanf("%d",&arr[i]);
 }
+while(1)
+{
 printf("1.insertion \n2.deletion \n3.searching \n4.traversal \n5.exit \n");
 printf("enter your option");
 scanf("%d",&op);
@@ -84,4 +86,4 @@ default:
        break;
 }
 }
-
+}
