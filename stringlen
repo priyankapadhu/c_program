@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+char a[50];
+int i=0,n=0;
+printf("enter the string:");
+scanf("%s",a);
+while(a[i]!='\0')
+{
+i++;
+}
+n=i;
+printf("the lsength of string %d ",n);
+}
