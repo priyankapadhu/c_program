@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+int a=4,b=2,*p1=&a,*p2=&b,op,c;
+while(1)
+{
+printf("1.add \n2.sub \n3.mul \n4.div \n5.mod \n6.exit\n");
+printf("enter your option");
+scanf("%d",&op);
+switch(op)
+{
+default :
+printf("wrong option\n");
+case 1:
+       c=(*p1+*p2);
+       printf("a+b =%d\n",c);
+       break;
+case 2:
+       c=(*p1-*p2);
+       printf("a-b =%d\n",c);
+       break;
+case 3:
+       c=(*p1**p2);
+       printf("a*b =%d\n",c);
+       break;
+case 4:
+       c=(*p1)/(*p2);
+       printf("a/b =%d\n",c);
+       break;
+case 5:
+       c=(*p1%*p2);
+       printf("a%b =%d\n",c);
+       break;
+case 6:
+      exit(0);
+}
+}
+}
